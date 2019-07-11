@@ -1,4 +1,4 @@
-Super simple little VBA script to redline selected text in word
+Super simple little VBA script to redline selected text in MS Word
 
 I always end up forgetting to redline changes, especially if I leave word in Simple Markup view
 That's why I put together this script that can quickly redline selections in word
