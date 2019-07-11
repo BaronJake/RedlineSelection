@@ -1,0 +1,11 @@
+Sub redlineSelection()
+'
+'Turns tracking off, cuts selection, turns tracking on, then pastes
+'This convers non-redlines text to redlined text
+ActiveDocument.TrackRevisions = False
+Selection.Cut
+ActiveDocument.TrackRevisions = True
+Selection.PasteAndFormat (wdFormatOriginalFormatting)
+ActiveDocument.TrackRevisions = False
+
+End Sub
